@@ -20,7 +20,7 @@ else
 fi
 
 LIB_PATHS="-L./libs"
-INCLUDES="-I./deps/raylib/src -I./deps/ail"
+INCLUDES="-I./deps/raylib/src"
 RAYLIB_DEP="-l:libraylib.a -lm -lpthread"
 DEPS="$INCLUDES $LIB_PATHS $RAYLIB_DEP"
 

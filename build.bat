@@ -21,7 +21,7 @@ if %DEBUG%==1 (
 
 :: Compiler-Options to include dependencies
 set LIB_PATHS=-L./libs
-set INCLUDES=-I./deps/raylib/src -I./deps/ail
+set INCLUDES=-I./deps/raylib/src
 set RAYLIB_DEP=-l:libraylib.a -lopengl32 -lgdi32 -lwinmm -lpthread
 set DEPS=%INCLUDES% %LIB_PATHS% %RAYLIB_DEP%
 
