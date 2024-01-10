@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+			"name": "",
+            "cStandard": "c99",
+            "includePath": [ "./deps/**" ],
+            "compilerPath": "/MingW/bin/gcc",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
