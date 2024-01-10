@@ -3,7 +3,7 @@
         {
 			"name": "",
             "cStandard": "c99",
-            "includePath": [ "./deps/**" ],
+            "includePath": [ "./deps/**", "./src/**" ],
             "compilerPath": "/MingW/bin/gcc",
             "intelliSenseMode": "windows-gcc-x64"
         }
